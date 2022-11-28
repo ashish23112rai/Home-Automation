@@ -1,7 +1,7 @@
 import grovepi
 from Adafruit_IO import *
-ADAFRUIT_IO_USERNAME = "salikmanzer6"
-ADAFRUIT_IO_KEY = "aio_XEGK02WqyrYmKbym1jvZQVrHkC0K"
+ADAFRUIT_IO_USERNAME = "#YOUR_USERNAME"
+ADAFRUIT_IO_KEY = "#YOUR_ADAFRUIT_KEY"
 aio=Client(ADAFRUIT_IO_USERNAME,ADAFRUIT_IO_KEY)
 relay=3
 test=aio.feeds('led')
